@@ -1,0 +1,236 @@
+
+:root {
+   --primary: #cc99ff;
+   --primary-deep: #a750ff;
+   --secondary-col: #99ffc7;
+   --tertiary-col: #99b1ff;
+   --text: #000;
+   --inverse-col: #ffe0e0;
+   --link: #5980ff;
+   --link-bg: #26ff88;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+ /*   border: 1px dotted #fbb6bd; */
+    font-family: monospace;
+}
+
+html {
+
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+header {
+    background-color: var(--tertiary-col);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid var(--link);
+}
+
+/* ------- NAVBAR -------*/
+nav {
+
+}
+
+
+/* ------- DIVS ------- */
+div {
+
+/* border-bottom: 1px solid var(--link); */
+    /* padding: 1vh 0; */
+}
+
+.page-wrapper {
+   /* background-color: var(--secondary-col); */
+    margin: 10vh 10vw;
+    border: 8px solid var(--tertiary-col);
+    border-radius: 16px;
+    box-shadow: 5px 5px var(--link);
+}
+
+.requirements, .benefits, .participation, .explanation, .preamble, .summary p {
+    border-left: 1px solid var(--link);
+    border-right: 1px solid var(--link);
+}
+
+/* SECTION */
+section {
+
+}
+
+.intro {
+
+}
+
+
+/* ------- FOOTER -------*/
+footer {
+ background-color: none;
+ padding: 2vh 1vw;
+ margin: 2vh 2vw;
+ background-color: var(--tertiary-col);
+ text-align: center;
+ /* border-bottom: 2px solid var(--link);
+ border-top: 1px solid var(--link); */
+}
+
+footer a {
+    color: var(--link);
+    font-size: 1.2rem;
+    background-color: var(--inverse-col);
+    padding: 2px 3px;
+    text-decoration: none;
+    border: 1px solid var(--link);
+    box-shadow: 3px 3px;
+}
+
+footer a:hover {
+    background-color: var(--inverse-col);
+    color: var(--primary-deep);
+    border: 1px solid var(--primary-deep);
+}
+
+/* -------SIDEBAR -------*/
+.sidebar {
+    padding: 1vh 1vw;
+    border: 1px solid var(--link);
+    background-color: var(--inverse-col);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* ------- PARAGRAPH -------*/
+p {
+background-color: var(--inverse-col);
+padding: 2vh 2vw;
+
+}
+
+/* ------- HEADERS ------- */
+h1, h2, h3 {
+    color: var(--primary-col);
+     padding: 1vh 1vw;
+}
+
+
+h1 { 
+
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    text-align: center;
+    padding: 2vh 2vw;
+    background-color: var(--secondary-col);
+    border-bottom: 5px solid var(--link-bg);
+    border-right: 1px dotted var(--link-bg);
+    border-left: 2px solid var(--link-bg);
+}
+
+/* ------- LINKS ------- */
+a {
+    color: var(--link);
+}
+
+a:hover {
+    background-color: var(--link-bg);
+}
+
+/* ------- LISTS ------- */
+ul {
+
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5vh 0vw;
+}
+
+/*
+header
+nav
+section
+h1
+h2
+h3
+div
+p
+a
+li
+ul
+aside
+abbr
+
+
+.page-wrapper
+    .intro
+    .summary
+    .preamble
+
+.main
+.supporting
+    .explanation
+    .participation
+    .benefits
+    .requirements
+
+footer
+    .zen-validate-html
+    .zen-validate-css
+    .zen-license
+    .zen-accessibility
+    .zen-github
+
+aside 
+    .sidebar
+        .wrapper
+            .design-selection
+            h3
+                .select
+                nav
+                    ul
+                    li
+                        .design-name
+                        .designer-name
+
+            .design-archives
+            h3
+                .archives
+                nav
+                    ul
+                    li
+                        .next
+                            .indicator
+                        .viewall
+
+                        
+    div
+        .zen-resources
+            h3
+                .resources
+                li
+                .view-css
+                    a
+                    abbr
+                .css-resources
+                    abbr
+                .zen-faq
+                    a
+                    abbr
+                .zen-submit
+                    a
+                    abbr
+                .zen-translations
+                    a
+                    abbr
+
+*/
