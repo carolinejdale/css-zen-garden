@@ -1,3 +1,6 @@
+# Files preceded by '_'
+._*
+
 # DS_Store
 .DS_Store
 
